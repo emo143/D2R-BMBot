@@ -1761,9 +1761,9 @@ public partial class Form1 : Form
                     Form1_0.KeyMouse_0.MouseClicc(970, 970);  //clic 'play'
                     Form1_0.WaitDelay(100);
 
-                    if (CharConfig.GameDifficulty == 0) Form1_0.KeyMouse_0.MouseClicc(960, 450);  //clic 'normal'
-                    if (CharConfig.GameDifficulty == 0) Form1_0.KeyMouse_0.MouseClicc(960, 520);  //clic 'nm'
-                    if (CharConfig.GameDifficulty == 0) Form1_0.KeyMouse_0.MouseClicc(960, 585);  //clic 'hell'
+                    if (CharConfig.GameDifficulty == 1) Form1_0.KeyMouse_0.MouseClicc(960, 450);  //clic 'normal'
+                    if (CharConfig.GameDifficulty == 1) Form1_0.KeyMouse_0.MouseClicc(960, 520);  //clic 'nm'
+                    if (CharConfig.GameDifficulty == 1) Form1_0.KeyMouse_0.MouseClicc(960, 585);  //clic 'hell'
                     Form1_0.WaitDelay(100);
                 }
                 else
